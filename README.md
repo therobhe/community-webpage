@@ -8,7 +8,6 @@ A modern commune portal built with React and TypeScript.
 - TypeScript for type safety
 - Vite for fast development
 - Responsive design for all devices
-- Dynamic page generation from CMS content
 
 ## Tech Stack
 

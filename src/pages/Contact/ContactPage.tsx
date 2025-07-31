@@ -157,14 +157,6 @@ const ContactPage = () => {
               </tbody>
             </table>
           </section>
-          
-          <section className="map-section">
-            <h2>Anfahrt</h2>
-            <div className="map-placeholder">
-              <p>Hier würde in einer echten Anwendung eine Karte angezeigt werden.</p>
-              <div className="map-icon">🗺️</div>
-            </div>
-          </section>
         </div>
         
         <div className="contact-form-container">

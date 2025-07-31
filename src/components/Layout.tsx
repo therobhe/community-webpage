@@ -18,8 +18,9 @@ const Layout = () => {
 
   return (
     <div className="layout" onKeyDown={handleKeyDown}>
-      {menuOpen && <div className="menu-overlay" onClick={() => setMenuOpen(false)}></div>}
+      {menuOpen && <div className="menu-backdrop" onClick={() => setMenuOpen(false)}></div>}
       <header className="header">
+        {menuOpen && <div className="menu-overlay"></div>}
         <div className="container">
           <div className="header-top">
             <h1 className="site-title">Gemeinde Musterstadt</h1>

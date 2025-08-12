@@ -30,16 +30,6 @@ npm install
 npm run dev
 ```
 
-## Content Management
-
-This project uses Contentful as its headless CMS. Content types include:
-
-- Pages
-- News Articles
-- Events
-- Service Listings
-- Contact Information
-
 ## Development
 
 - `src/` - Source code
